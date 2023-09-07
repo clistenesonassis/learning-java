@@ -1,3 +1,4 @@
+import notes.Inputs;
 import notes.Variables;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
@@ -7,5 +8,8 @@ public class Main {
 
         // Variables
         new Variables().run();
+
+        // Inputs
+        new Inputs();
     }
 }
