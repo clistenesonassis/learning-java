@@ -14,6 +14,6 @@ public class Main {
         // new Inputs();
 
         // Arrays
-        // new LearnArrays().showValues();
+         new LearnArrays().showValues().sortArray();
     }
 }

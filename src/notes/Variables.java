@@ -12,6 +12,9 @@ public class Variables {
     // Variables: Reference Types.
     String name = "Clístenes Onassis";
 
+    // Variables: Constant.
+    final int maxInterval = 100; // the value cannot be changed.
+
     public void run() {
         System.out.println("## Variables");
         System.out.println(
