@@ -1,5 +1,6 @@
 import notes.Inputs;
 import notes.LearnArrays;
+import notes.NumbersFormat;
 import notes.Variables;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
@@ -11,9 +12,12 @@ public class Main {
         // new Variables().run();
 
         // Inputs
-        // new Inputs();
+         new Inputs().numberOfDigits();
 
         // Arrays
-         new LearnArrays().showValues().sortArray();
+        // new LearnArrays().showValues().sortArray();
+
+        // Numbers Format
+        // new NumbersFormat();
     }
 }

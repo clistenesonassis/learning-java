@@ -24,4 +24,14 @@ public class Operators {
     private int operation2 = (6 + 2) * 2 - 3; // should be 13
     private int operation3 = 6 + 2 * (2 - 3); // should be 4
     private int operation4 = 6 / 2 * 2 - 4; // should be 2
+
+    // Comparison operators.
+    private boolean isActive = 10 >= 5; // should be true
+    private boolean hasProblem = 10 < 5; // should be false
+
+
+    // Logic operators
+    private int price = 45;
+    private boolean canBuy = this.price >= 10 && this.price <= 100;
+    private boolean canAddProtection = this.canBuy || this.price < 10;
 }
